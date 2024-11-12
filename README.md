@@ -10,4 +10,4 @@ This repository hosts a series of JSON files written for the `underanalyzer` bra
 6. You're done! Launch UTMT (from your own compilation, of course) and the next time you open up Pizza Tower, the changes should be applied!
 
 # Known Issues
-- So far, I've really only gotten to about half of the content so far. It's helpful and mostly furfilling enough at the moment to release, however!
+- So far, I've really only gotten to about half of the codebase. It's helpful and mostly furfilling enough at the moment to release, however!
