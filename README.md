@@ -1,5 +1,5 @@
 # PizzaTowerGameSpecificData
-This repository hosts a JSON file written for the `underanalyzer` branch of [UndertaleModTool](https://github.com/UnderminersTeam/UndertaleModTool/tree/underanalyzer). It is intended to make Pizza Tower modding easier by correctly resolving assets. Collaboration is always appreciated, so feel free to open a pull request or two! :D
+This repository hosts a series of JSON files written for the `underanalyzer` branch of [UndertaleModTool](https://github.com/UnderminersTeam/UndertaleModTool/tree/underanalyzer). It is intended to make Pizza Tower modding easier by correctly resolving assets. Collaboration is always appreciated, so feel free to open a pull request or two! :D
 
 # How To Install
 1. [Compile](https://github.com/UnderminersTeam/UndertaleModTool/blob/underanalyzer/README.md#compilation-instructions) the latest commit of UndertaleModTool from the `underanalyzer` branch.
