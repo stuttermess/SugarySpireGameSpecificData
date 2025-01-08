@@ -1,13 +1,713 @@
 {
   "Types": {
     "Enums": {
+      "Enum.State": {
+        "Name": "states",
+        "Values": {
+          "normal": 0,
+          "revolver": 1,
+          "dynamite": 2,
+          "boots": 3,
+          "grabbed": 4,
+          "tumble": 5,
+          "finishingblow": 6,
+          "ejected": 7,
+          "transitioncutscene": 8,
+          "fireass": 9,
+          "firemouth": 10,
+          "mort": 11,
+          "mortjump": 12,
+          "mortattack": 13,
+          "morthook": 14,
+          "hook": 15,
+          "ghost": 16,
+          "ghostpossess": 17,
+          "titlescreen": 18,
+          "hookshot": 19,
+          "tacklecharge": 20,
+          "cheeseball": 21,
+          "cheeseballclimbwall": 22,
+          "slap": 23,
+          "cheesepep": 24,
+          "cheesepepstick": 25,
+          "cheesepepjump": 26,
+          "cheesepepfling": 27,
+          "cheesepeplaunch": 28,
+          "cheesepepstickside": 29,
+          "cheesepepstickup": 30,
+          "rideweenie": 31,
+          "motorcycle": 32,
+          "boxxedpep": 33,
+          "boxxedpepspin": 34,
+          "boxxedpepjump": 35,
+          "pistolaim": 36,
+          "climbwall": 37,
+          "knightpepslopes": 38,
+          "portal": 39,
+          "secondjump": 40,
+          "chainsawbump": 41,
+          "handstandjump": 42,
+          "lungeattack": 43,
+          "lungegrab": 44,
+          "dashtumble": 45,
+          "gottreasure": 46,
+          "knightpep": 47,
+          "knightpepattack": 48,
+          "knightpepbump": 49,
+          "meteorpep": 50,
+          "bombpep": 51,
+          "bombgrab": 52,
+          "bombpepside": 53,
+          "bombpepup": 54,
+          "grabbing": 55,
+          "chainsawpogo": 56,
+          "shotgunjump": 57,
+          "pogo": 58,
+          "stunned": 59,
+          "highjump": 60,
+          "chainsaw": 61,
+          "facestomp": 62,
+          "unknown63": 63,
+          "timesup": 64,
+          "machroll": 65,
+          "shotgun": 66,
+          "shotguncrouch": 67,
+          "shotguncrouchjump": 68,
+          "shotgunshoot": 69,
+          "shotgundash": 70,
+          "shotgunfreefall": 71,
+          "pistol": 72,
+          "machfreefall": 73,
+          "throwing": 74,
+          "slam": 75,
+          "superslam": 76,
+          "skateboard": 77,
+          "grind": 78,
+          "grab": 79,
+          "punch": 80,
+          "backkick": 81,
+          "uppunch": 82,
+          "shoulder": 83,
+          "backbreaker": 84,
+          "graffiti": 85,
+          "bossdefeat": 86,
+          "pizzathrow": 87,
+          "bossintro": 88,
+          "gameover": 89,
+          "keyget": 90,
+          "tackle": 91,
+          "jump": 92,
+          "ladder": 93,
+          "slipnslide": 94,
+          "comingoutdoor": 95,
+          "smirk": 96,
+          "Sjump": 97,
+          "victory": 98,
+          "Sjumpprep": 99,
+          "crouch": 100,
+          "crouchjump": 101,
+          "crouchslide": 102,
+          "mach1": 103,
+          "mach2": 104,
+          "machslide": 105,
+          "bump": 106,
+          "hurt": 107,
+          "freefall": 108,
+          "hang": 109,
+          "unknown110": 110,
+          "freefallland": 111,
+          "door": 112,
+          "barrel": 113,
+          "barreljump": 114,
+          "barrelclimbwall": 115,
+          "barrelslide": 116,
+          "current": 117,
+          "boulder": 118,
+          "taxi": 119,
+          "runonball": 120,
+          "mach3": 121,
+          "freefallprep": 122,
+          "Sjumpland": 123,
+          "faceplant": 124,
+          "rage": 125,
+          "idle": 126,
+          "bounce": 127,
+          "charge": 128,
+          "pizzagoblinthrow": 129,
+          "turn": 130,
+          "unknown131": 131,
+          "unknown132": 132,
+          "rolling": 133,
+          "walk": 134,
+          "fall": 135,
+          "land": 136,
+          "hit": 137,
+          "stun": 138,
+          "unknown139": 139,
+          "unknown140": 140,
+          "chase": 141,
+          "arenaspawn": 142,
+          "arenaend": 143,
+          "arenaintro": 144,
+          "arenaround": 145,
+          "actor": 146,
+          "parry": 147,
+          "golf": 148,
+          "float": 149,
+          "tube": 150,
+          "unknown151": 151,
+          "taxi2": 152,
+          "shoulderbash": 153,
+          "pummel": 154,
+          "staggered": 155,
+          "thrown": 156,
+          "supershoulderbash": 157,
+          "superattackstart": 158,
+          "superattackcharge": 159,
+          "superattack": 160,
+          "shoulderturn": 161,
+          "fistmatch": 162,
+          "fistmatchend": 163,
+          "groundpunchstart": 164,
+          "slipbanan": 165,
+          "millionpunch": 166,
+          "skateboardturn": 167,
+          "bombthrow": 168,
+          "bombpogo": 169,
+          "jetpackstart": 170,
+          "jetpack": 171,
+          "jetpackstart2": 172,
+          "jetpackspin": 173,
+          "mrstick_shield": 174,
+          "mrstick_helicopterhat": 175,
+          "mrstick_panicjump": 176,
+          "mrstick_smokebombstart": 177,
+          "mrstick_smokebombcrawl": 178,
+          "mrstick_springshoes": 179,
+          "mrstick_cardboard": 180,
+          "mrstick_cardboardend": 181,
+          "mrstick_mockery": 182,
+          "bombdelete": 183,
+          "rocket": 184,
+          "rocketslide": 185,
+          "gotoplayer": 186,
+          "trickjump": 187,
+          "dance": 188,
+          "underground": 189,
+          "ridecow": 190,
+          "ratmount": 191,
+          "ratmountjump": 192,
+          "ratmountattack": 193,
+          "ratmountspit": 194,
+          "ratmountclimbwall": 195,
+          "ratmounthurt": 196,
+          "ratmountgroundpound": 197,
+          "ratmountbounce": 198,
+          "unknown199": 199,
+          "ratmountballoon": 200,
+          "ratmounttumble": 201,
+          "ratmountgrind": 202,
+          "ratmounttrickjump": 203,
+          "ratmountskid": 204,
+          "ratgrabbed": 205,
+          "blockstance": 206,
+          "balloon": 207,
+          "debugstate": 208,
+          "trashstart": 209,
+          "trashjump": 210,
+          "trashroll": 211,
+          "stringfling": 212,
+          "stringjump": 213,
+          "stringfall": 214,
+          "noisejetpack": 215,
+          "spiderweb": 216,
+          "monsteridle": 217,
+          "monsterintro": 218,
+          "monsterwalk": 219,
+          "monsterchase": 220,
+          "monsterinvestigate": 221,
+          "monsterrun": 222,
+          "flushidle": 223,
+          "flushflip": 224,
+          "animatronic": 225,
+          "moustache": 226,
+          "mouth": 227,
+          "eyes": 228,
+          "nose": 229,
+          "ram": 230,
+          "phase2transition": 231,
+          "look": 232,
+          "fishing": 233,
+          "unknown234": 234,
+          "bombrun": 235,
+          "npcthrow": 236,
+          "portraitthrow": 237,
+          "enguarde": 238,
+          "sexypicture": 239,
+          "pullinglevel": 240,
+          "eat": 241,
+          "surprisebox": 242,
+          "spinningrun": 243,
+          "spin": 244,
+          "spinningpunch": 245,
+          "groundpunch": 246,
+          "bigkick": 247,
+          "slamhead": 248,
+          "slamhead2": 249,
+          "whitenoise": 250,
+          "expression": 251,
+          "playersuperattack": 252,
+          "unknown253": 253,
+          "jetpackjump": 254,
+          "unknown255": 255,
+          "unknown256": 256,
+          "bee": 257,
+          "beechase": 258,
+          "ratmountpunch": 259,
+          "ratmountcrouch": 260,
+          "ratmountladder": 261,
+          "supergrab": 262,
+          "unknown263": 263,
+          "attract": 264,
+          "antigrav": 265,
+          "secret": 266,
+          "contemplate": 267,
+          "mini": 268,
+          "reloading": 269,
+          "estampede": 270,
+          "dropstart": 271,
+          "drop": 272,
+          "phase1hurt": 273,
+          "duel": 274,
+          "deformed": 275,
+          "grabdash": 276,
+          "grabthrow": 277,
+          "wait": 278,
+          "flamethrower": 279,
+          "machinegun": 280,
+          "bazooka": 281,
+          "crate": 282,
+          "noisecrusher": 283,
+          "droptrap": 284,
+          "noiseskateboard": 285,
+          "noiseballooncrash": 286,
+          "swinging": 287,
+          "stomp": 288,
+          "finale": 289,
+          "backtohub": 290,
+          "ghostcaught": 291,
+          "spaceshuttle": 292,
+          "animation": 293,
+          "pizzaheadjump": 294,
+          "fightball": 295,
+          "secretportal": 296,
+          "teleporter": 297,
+          "pizzaheadKO": 298,
+          "follow": 299,
+          "unknown300": 300,
+          "unknown301": 301,
+          "unknown302": 302,
+          "unknown303": 303,
+          "unknown304": 304,
+          "machcancelstart": 305,
+          "machcancel": 306
+        }
+      },
+      "Enum.ParticleType": {
+        "Name": "particletypes",
+        "Values": {
+          "first": 0,
+          "cloudeffect": 1,
+          "crazyrunothereffect": 1,
+          "highjumpcloud1": 2,
+          "highjumpcloud2": 3,
+          "jumpdust": 4,
+          "balloonpop": 5,
+          "shotgunimpact": 6,
+          "impact": 7,
+          "genericpoofeffect": 8,
+          "keyparticles": 9,
+          "teleporteffect": 10,
+          "landcloud": 11,
+          "ratmountballooncloud": 12,
+          "groundpoundeffect": 13,
+          "noisegrounddasheffect": 14,
+          "antigrav_bubblepop": 15,
+          "last": 16
+        }
+      },
+      "Enum.AfterimageType": {
+        "Name": "afterimagetype",
+        "Values": {
+          "normal": 0,
+          "mach3effect": 1,
+          "heatattack": 2,
+          "firemouth": 3,
+          "blue": 4,
+          "blur": 5,
+          "red": 6,
+          "red_alt": 7,
+          "noise": 8,
+          "last": 9
+        }
+      },
+      "Enum.DebrisType": {
+        "Name": "debristype",
+        "Values": {
+          "normal": 0
+        }
+      },
+      "Enum.Notification": {
+        "Name": "notifications",
+        "Values": {
+          "bodyslam_start": 0,
+          "bodyslam_end": 1,
+          "generic_killed": 2,
+          "room_enemiesdead": 3,
+          "enemy_parried": 4,
+          "level_finished": 5,
+          "mortcube_destroyed": 6,
+          "hurt": 7,
+          "fell_into_pit": 8,
+          "beer_knocked": 9,
+          "touched_timedgate": 10,
+          "flush_done": 11,
+          "baddie_killed_projectile": 12,
+          "treasureguy_uncovered": 13,
+          "special_destroyable_destroyed": 14,
+          "custom_destructibles_destroyed": 15,
+          "pizzaball_shot": 16,
+          "pizzaball_kill": 17,
+          "pizzaball_goal": 18,
+          "brickball_start": 19,
+          "john_destroyed": 20,
+          "brickball_kill": 21,
+          "pigcitizen_taunt": 22,
+          "pizzaboy_killed": 23,
+          "touched_mrpinch": 24,
+          "priest_touched": 25,
+          "secret_entered": 26,
+          "secret_exited": 27,
+          "iceblock_bird_freed": 28,
+          "monster_killed": 29,
+          "monster_activated": 30,
+          "jumpscared": 31,
+          "knightpep_bumped": 32,
+          "cheeseblock_destroyed": 33,
+          "rat_destroyed_with_baddie": 34,
+          "rattumble_destroyed": 35,
+          "rat_destroyed": 36,
+          "touched_lava": 37,
+          "touched_cow": 38,
+          "touched_cow_once": 39,
+          "touched_gravesurf_once": 40,
+          "touched_ghostfollow": 41,
+          "ghost_end": 42,
+          "superjump_end": 43,
+          "shotgun_shot": 44,
+          "shotgun_shot_end": 45,
+          "destroyable_destroyed": 46,
+          "bazooka_explosion": 47,
+          "wartimer_finished": 48,
+          "totem_reactivated": 49,
+          "boss_defeated": 50,
+          "combo_end": 51,
+          "achievement_unlocked": 52,
+          "crouched_in_poo": 53,
+          "game_beaten": 54,
+          "taunted": 55,
+          "john_resurrected": 56,
+          "knight_obtained": 57,
+          "mooney_unlocked": 58,
+          "unknown59": 59,
+          "pumpkin_gotten": 60,
+          "pumpkindoor_entered": 61,
+          "trickytreat_failed": 62,
+          "trickytreat_door_entered": 63,
+          "tornadoattack_end": 64,
+          "gate_taunted": 65,
+          "noisebomb_wasted": 66,
+          "got_endingrank": 67,
+          "breakdance_start": 68,
+          "touched_banana": 69,
+          "level_finished_pizzaface": 70,
+          "player_antigrav": 71,
+          "ptg_seen": 72,
+          "touched_granny": 73
+        }
+      },
+      "Enum.EditorState": {
+        "Name": "editorstates",
+        "Values": {
+          "init": 0,
+          "instance_edit": 1,
+          "unknown2": 2,
+          "resize_room": 3,
+          "save_level": 4,
+          "load_level": 5
+        }
+      },
+      "Enum.InstanceState": {
+        "Name": "instancestates",
+        "Values": {
+          "normal": 1,
+          "move": 2,
+          "resize": 3
+        }
+      },
+      "Enum.Dock": {
+        "Name": "docks",
+        "Values": {
+          "top_left": 0,
+          "left": 1,
+          "bottom_left": 2,
+          "top_right": 3,
+          "right": 4,
+          "bottom_right": 5,
+          "top": 6,
+          "bottom": 7,
+          "last": 8
+        }
+      },
+      "Enum.LayerType": {
+        "Name": "layertypes",
+        "Values": {
+          "background": 0,
+          "tile": 1
+        }
+      },
+      "Enum.CollisionFlag": {
+        "Name": "collisionflags",
+        "Values": {
+          "secret": 1,
+          "on_slope": 2,
+          "on_floor": 4
+        }
+      },
+      "Enum.TileMeetingFlag": {
+        "Name": "tilemeeting_flags",
+        "Values": {
+          "all_solid": 2,
+          "solid": 4,
+          "slope": 8
+        }
+      },
+      "Enum.TDPInputActionType": {
+        "Name": "tdp_input_actiontypes",
+        "Values": {
+          "keyboard": 0,
+          "gamepad_button": 1,
+          "gamepad_axis": 2
+        }
+      },
+      "Enum.TDPTextActionType": {
+        "Name": "tdp_text_actiontypes",
+        "Values": {
+          "halign": 0,
+          "valign": 1,
+          "text": 2,
+          "font": 3
+        }
+      },
+      "Enum.TextType": {
+        "Name": "text_types",
+        "Values": {
+          "text": 0,
+          "icon": 1,
+          "effect": 2
+        }
+      },
+      "Enum.TextEffect": {
+        "Name": "text_effects",
+        "Values": {
+          "none": 0,
+          "shake": 1,
+          "wave": 2
+        }
+      },
+      "Enum.ButtonIcon": {
+        "Name": "button_icons",
+        "Values": {
+          "player_up": 0,
+          "player_left": 1,
+          "player_right": 2,
+          "player_down": 3,
+          "player_forward": 4,
+          "player_backward": 5,
+          "player_slap": 6,
+          "player_attack": 7,
+          "player_jump": 8,
+          "player_shoot": 9,
+          "player_taunt": 10,
+          "player_groundpound": 11,
+          "player_superjump": 12,
+          "menu_up": 13,
+          "menu_left": 14,
+          "menu_right": 15,
+          "menu_down": 16,
+          "menu_select": 17,
+          "menu_back": 18,
+          "menu_delete": 19,
+          "menu_quit": 20,
+          "menu_start": 21,
+          "menu_reset_binds": 21
+        }
+      },
+      "Enum.TokenType": {
+        "Name": "tokentypes",
+        "Values": {
+          "set": 0,
+          "identifier": 1,
+          "string": 2,
+          "constant": 3,
+          "last": 4
+        }
+      },
+      "Enum.DebugTextType": {
+        "Name": "debug_texttypes",
+        "Values": {
+          "plain": 0,
+          "command": 1,
+          "debug_log": 2,
+          "error": 3
+        }
+      },
+      "Enum.TVPromptTypes": {
+        "Name": "tv_prompttypes",
+        "Values": {
+          "start": 0,
+          "highprio": 1,
+          "normal": 2
+        }
+      },
+      "Enum.AspectRatio": {
+        "Name": "aspectratios",
+        "Values": {
+          "ratio_16_9": 0,
+          "ratio_4_3": 1
+        }
+      },
+      "Enum.Holiday": {
+        "Name": "holidays",
+        "Values": {
+          "normal": 0,
+          "halloween": 1
+        }
+      },
+      "Enum.MenuIDs": {
+        "Name": "menuids",
+        "Values": {
+          "categories": 0,
+          "audio": 1,
+          "video": 2,
+          "window": 3,
+          "resolution": 4,
+          "unknown5": 5,
+          "game": 6,
+          "controls": 7,
+          "controller": 8,
+          "keyboard": 9,
+          "deadzones": 10,
+          "last": 11
+        }
+      },
+      "Enum.OptionType": {
+        "Name": "optiontypes",
+        "Values": {
+          "toggle": 0,
+          "multiple": 1,
+          "press": 2,
+          "slide": 3
+        }
+      },
+      "Enum.MenuType": {
+        "Name": "menutypes",
+        "Values": {
+          "normal": 0
+        }
+      },
+      "Enum.MenuAnchor": {
+        "Name": "menuanchors",
+        "Values": {
+          "center": 0,
+          "left": 1
+        }
+      },
+      "Enum.VigilanteAttack": {
+        "Name": "vigilante_attacks",
+        "Values": {
+          "revolver": 0,
+          "dynamite": 1,
+          "cow": 2,
+          "estampede": 3,
+          "flamethrower": 4,
+          "uzi": 5,
+          "bazooka": 6,
+          "cowcrate": 7,
+          "kick": 8,
+          "wait": 9,
+          "reload": 10
+        }
+      },
+      "Enum.FakepepAttack": {
+        "Name": "fakepep_attacks",
+        "Values": {
+          "grab": 0,
+          "bodyslam": 1,
+          "mach": 2,
+          "superjump": 3,
+          "throwhead": 4,
+          "taunt": 5,
+          "stunned": 6
+        }
+      },
+      "Enum.PizzafaceP2Attack": {
+        "Name": "pizzafacep2_attacks",
+        "Values": {
+          "pullinglevel": 0,
+          "tv": 1,
+          "minigun": 2,
+          "ratball": 3,
+          "pinup": 4
+        }
+      },
+      "Enum.PizzafaceP3Attack": {
+        "Name": "pizzafacep3_attacks",
+        "Values": {
+          "jump": 0,
+          "swinging": 1,
+          "punch": 2,
+          "stomp": 3,
+          "laugh": 4
+        }
+      },
+      "Enum.NoiseOLDBehaviour": {
+        "Name": "noiseOLD_behaviour",
+        "Values": {
+          "none": 0,
+          "close": 1,
+          "far": 2,
+          "anywhere": 3
+        }
+      }
     },
-    "Constants": {
-    },
+    "Constants": {},
     "General": {
       "Array<Asset.Room>": {
         "MacroType": "ArrayInit",
         "Macro": "Asset.Room"
+      },
+      "Array<Asset.Object>": {
+        "MacroType": "ArrayInit",
+        "Macro": "Asset.Object"
+      },
+      "Array<Enum.State>": {
+        "MacroType": "ArrayInit",
+        "Macro": "Enum.State"
+      },
+      "Array<Enum.TVPromptTypes>": {
+        "MacroType": "ArrayInit",
+        "Macro": "Enum.TVPromptTypes"
       }
     }
   },
@@ -36,7 +736,16 @@
       "spr_hidden": "Asset.Sprite",
       "spr_idle": "Asset.Sprite",
       "stunspr": "Asset.Sprite",
+      "leveltorestart": "Asset.Room",
       "targetRoom": "Asset.Room",
+      "targetRoom2": "Asset.Room",
+      "backtohubroom": "Asset.Room",
+      "roomtorestart": "Asset.Room",
+      "checkpointroom": "Asset.Room",
+      "lastroom": "Asset.Room",
+      "hub_array": "Asset.Room",
+      "level_array": "Asset.Room",
+      "_levelinfo": "Asset.Room",
       "bgsprite": "Asset.Sprite",
       "ratpowerup": "Asset.Object",
       "boss_hpsprite": "Asset.Sprite",
@@ -47,6 +756,7 @@
       "spr": "Asset.Sprite",
       "boss_palette": "Asset.Sprite",
       "content": "Asset.Object",
+      "target": "Asset.Object",
       "expressionsprite": "Asset.Sprite",
       "_spr": "Asset.Sprite",
       "_obj_player": "Asset.Object",
@@ -62,6 +772,38 @@
       "_back": "Constant.GamepadButton",
       "tvsprite": "Asset.Sprite",
       "sprite": "Asset.Sprite",
+
+      "state": "Enum.State",
+      "_state": "Enum.State",
+      "prevstate": "Enum.State",
+      "_prevstate": "Enum.State",
+      "substate": "Enum.State",
+      "arenastate": "Enum.State",
+      "player_state": "Enum.State",
+      "tauntstoredstate": "Enum.State",
+      "taunt_storedstate": "Enum.State",
+      "storedstate": "Enum.State",
+      "chosenstate": "Enum.State",
+      "superattackstate": "Enum.State",
+      "text_state": "Enum.State",
+      "ministate": "Enum.State",
+      "dropstate": "Enum.State",
+      "verticalstate": "Enum.State",
+      "walkstate": "Enum.State",
+      "hitstate": "Enum.State",
+      "toppin_state": "Enum.State",
+      "bossintrostate": "Enum.State",
+      "introstate": "Enum.State",
+      "fadeoutstate": "Enum.State",
+      "supergrabstate": "Enum.State",
+      "startstate": "Enum.State",
+      "atstate": "Enum.State",
+      "attack_pool": "Array<Enum.State>",
+      "editor_state": "Enum.EditorState",
+      "instance_state": "Enum.InstanceState",
+      "transformation": "Enum.State",
+
+
       "divisionjustforplayersprites": "Asset.Sprite",
       "spr_move": "Asset.Sprite",
       "spr_crawl": "Asset.Sprite",
@@ -323,8 +1065,90 @@
       "spr_backslideland": "Asset.Sprite",
       "spr_breakdanceuppercut": "Asset.Sprite",
       "spr_breakdanceuppercutend": "Asset.Sprite",
-      "_face": "Constant.GamepadButton"
 
+      "_face": "Constant.GamepadButton",
+      "objectlist": "Array<Asset.Object>",
+      "object_arr": "Array<Asset.Object>",
+      "objdark_arr": "Array<Asset.Object>",
+      "content_arr": "Array<Asset.Object>",
+      "spawnpool": "Array<Asset.Object>",
+      "spawn_arr": "Array<Asset.Object>",
+      "dark_arr": "Array<Asset.Object>",
+      "flash_arr": "Array<Asset.Object>",
+      "collision_list": "Array<Asset.Object>",
+
+      "platformid": "Asset.Object",
+      "objID": "Asset.Object",
+      "objectID": "Asset.Object",
+      "spawnenemyID": "Asset.Object",
+      "ID": "Asset.Object",
+      "pizzashieldID": "Asset.Object",
+      "angryeffectid": "Asset.Object",
+      "pizzashieldid": "Asset.Object",
+      "superchargedeffectid": "Asset.Object",
+      "baddieID": "Asset.Object",
+      "baddieid": "Asset.Object",
+      "brickid": "Asset.Object",
+      "attackerID": "Asset.Object",
+      "object": "Asset.Object",
+      "obj": "Asset.Object",
+      "_obj": "Asset.Object",
+      "closestObj": "Asset.Object",
+      "solidObj": "Asset.Object",
+      "bg_obj": "Asset.Object",
+      "my_obj_index": "Asset.Object",
+      "inst": "Asset.Object",
+      "chargeeffectid": "Asset.Object",
+      "dashcloudid": "Asset.Object",
+      "crazyruneffectid": "Asset.Object",
+      "superslameffectid": "Asset.Object",
+      "speedlineseffectid": "Asset.Object",
+
+      "rm": "Asset.Room",
+      "room_index": "Asset.Room",
+      "levels": "Array<Asset.Room>",
+      "room_arr": "Array<Asset.Room>",
+
+      "vstitle": "Asset.Sprite",
+      "bg": "Asset.Sprite",
+      "bg2": "Asset.Sprite",
+      "bg3": "Asset.Sprite",
+      "playersprshadow": "Asset.Sprite",
+      "bosssprshadow": "Asset.Sprite",
+      "portrait1_idle": "Asset.Sprite",
+      "portrait1_hurt": "Asset.Sprite",
+      "portrait2_idle": "Asset.Sprite",
+      "portrait2_hurt": "Asset.Sprite",
+      "panicspr": "Asset.Sprite",
+      "bossarr": "Array<Asset.Sprite>",
+      "palettetexture": "Asset.Sprite",
+      "switchstart": "Asset.Sprite",
+      "switchend": "Asset.Sprite",
+      "_hurt": "Asset.Sprite",
+      "_dead": "Asset.Sprite",
+      "treasure_arr": "Array<Asset.Sprite>",
+      "storedspriteindex": "Asset.Sprite",
+      "icon": "Asset.Sprite",
+      "spridle": "Asset.Sprite",
+      "sprgot": "Asset.Sprite",
+
+      "gameframe_caption_icon": "Asset.Sprite",
+
+      "color": "Constant.Color",
+      "textcolor": "Constant.Color",
+      "bc": "Constant.Color",
+      "tc": "Constant.Color",
+      "gameframe_blend": "Constant.Color",
+      "c1": "Constant.Color",
+      "c2": "Constant.Color",
+
+      "layer_type": "Enum.LayerType",
+      "identifier": "Enum.AfterimageType",
+
+      "holiday": "Enum.Holiday",
+      "collision_flags": "Enum.CollisionFlag",
+      "menu": "Enum.MenuIDs",
+      "menu_id": "Enum.MenuIDs"
     },
     "FunctionArguments": {
       "gml_Script_check_slope": ["Asset.Object"],
@@ -333,12 +1157,18 @@
       "gml_Script_create_debris": {
         "MacroType": "Union",
         "Macros": [
-          [ null, null, "Asset.Sprite" ],
-          [ null, null, "Asset.Sprite", null ]
+          [null, null, "Asset.Sprite"],
+          [null, null, "Asset.Sprite", null]
         ]
       },
       "gml_Script_instance_create_unique": [null, null, "Asset.Object"],
-      "gml_Script_scr_bosscontroller_particle_anim": ["Asset.Sprite", null, null, null, null],
+      "gml_Script_scr_bosscontroller_particle_anim": [
+        "Asset.Sprite",
+        null,
+        null,
+        null,
+        null
+      ],
       "gml_Script_scr_get_gamepadicon": ["Constant.GamepadButton"],
       "gml_Script_pal_swap_set": ["Asset.Sprite", null, null],
       "gml_Script_create_collect": [null, null, "Asset.Sprite", null],
@@ -348,30 +1178,80 @@
       "gml_Script_achievement_unlock": [null, null, "Asset.Sprite", null],
       "gml_Script_scr_boss_genericintro": {
         "MacroType": "Union",
-        "Macros": [
-          [ "Asset.Sprite" ],
-          [ "Asset.Sprite", null ]
-        ]
+        "Macros": [["Asset.Sprite"], ["Asset.Sprite", null]]
       },
       "gml_Script_randomize_animations": ["Array<Asset.Sprite>"],
       "gml_Script_tdp_action": {
         "MacroType": "Union",
         "Macros": [
-          [ null, "Constant.GamepadButton" ],
-          [ null, "Constant.GamepadButton", null ]
+          [null, "Constant.GamepadButton"],
+          [null, "Constant.GamepadButton", null]
         ]
       },
       "gml_Script_tdp_input_action": {
         "MacroType": "Union",
         "Macros": [
-          [ null, "Constant.GamepadButton" ],
-          [ null, "Constant.GamepadButton", null ]
+          [null, "Constant.GamepadButton"],
+          [null, "Constant.GamepadButton", null]
+        ]
+      },
+      "gml_Script_create_particle": {
+        "MacroType": "Union",
+        "Macros": [
+          [null, null, "Enum.ParticleType"],
+          [null, null, "Enum.ParticleType", null]
+        ]
+      },
+      "gml_Script_particle_set_scale": ["Enum.AfterimageType", null, null],
+      "has_value": {
+        "MacroType": "Union",
+        "Macros": [
+          ["Enum.TDPInputActionType", null],
+          ["Enum.TDPInputActionType", null, null]
+        ]
+      },
+      "gml_Script_anon_tdp_input_key_gml_GlobalScript_tdp_input_classes_316_tdp_input_key_gml_GlobalScript_tdp_input_classes": {
+        "MacroType": "Union",
+        "Macros": [
+          ["Enum.TDPInputActionType", null],
+          ["Enum.TDPInputActionType", null, null]
+        ]
+      },
+      "gml_Script_is_holiday": ["Enum.Holiday"],
+      "gml_Script_notification_push": ["Enum.Notification", null],
+      "gml_Script_tv_push_prompt": [null, "Enum.TVPromptTypes", null, null],
+      "gml_Script_scr_draw_text_arr": [null, null, null, null, "Enum.TextEffect"],
+      "gml_Script_scr_bombshoot": ["Enum.State"],
+      "gml_Script_create_menu_fixed": {
+        "MacroType": "Union",
+        "Macros": [
+          ["Enum.MenuIDs", "Enum.MenuAnchor", null, null],
+          ["Enum.MenuIDs", "Enum.MenuAnchor", null, null, null]
+        ]
+      },
+      "gml_Script_menu_goto": ["Enum.MenuIDs"],
+      "gml_Script_editor_set_state": ["Enum.EditorState"],
+      "gml_Script_achievement_add_variable":  [
+        {
+          "MacroType": "Match",
+          "ConditionalValue": "boise_prevstate",
+          "ConditionalType": "String"
+        },
+        "Enum.State"
+      ],
+      "gml_Script_palette_unlock": {
+        "MacroType": "Union",
+        "Macros": [
+          [null, null, null, "Asset.Sprite"],
+          [null, null, null, "Asset.Sprite", null],
+          [null, null, null, "Asset.Sprite", null, null]
         ]
       }
     },
     "FunctionReturn": {
       "object_get_parent": "Asset.Object",
       "gml_Script_scr_checkanygamepad": "Constant.GamepadButton",
+      "gml_Script_component_get_dock": "Enum.Dock",
       "gml_Script_scr_getallrooms": "Array<Asset.Room>"
     }
   },
@@ -391,11 +1271,6 @@
         "argument0": "Asset.Room"
       }
     },
-    "gml_Script_anon_tdp_input_action_gml_GlobalScript_tdp_input_classes_1897_tdp_input_action_gml_GlobalScript_tdp_input_classes": {
-      "Variables": {
-        "value": "Constant.GamepadButton"
-      }
-    },
     "gml_Script_scr_getinput": {
       "Variables": {
         "value": "Constant.GamepadButton"
@@ -413,7 +1288,14 @@
     },
     "gml_Script_scr_player_animatronic": {
       "FunctionArguments": {
-        "choose": ["Asset.Sprite", "Asset.Sprite", "Asset.Sprite", "Asset.Sprite", "Asset.Sprite", "Asset.Sprite"]
+        "choose": [
+          "Asset.Sprite",
+          "Asset.Sprite",
+          "Asset.Sprite",
+          "Asset.Sprite",
+          "Asset.Sprite",
+          "Asset.Sprite"
+        ]
       }
     },
     "gml_Script_scr_initinput": {
@@ -424,6 +1306,132 @@
     "gml_Script_scr_initinput2": {
       "FunctionArguments": {
         "ini_read_string": [null, null, "Constant.GamepadButton"]
+      }
+    },
+    "gml_Object_obj_ending_create_0": {
+      "Variables": {
+        "spawn_arr": "Array<Asset.Sprite>"
+      }
+    },
+    "gml_Script____struct___63_create_debris_gml_GlobalScript_scr_particle_system": {
+      "Variables": {
+        "type": "Enum.DebrisType"
+      }
+    },
+    "gml_Script_tdp_input_serialize_array": {
+      "Variables": {
+        "type": "Enum.TDPInputActionType"
+      }
+    },
+    "gml_Script_tdp_input_deserialize": {
+      "Variables": {
+        "type": "Enum.TDPInputActionType"
+      }
+    },
+    "gml_Script_tdp_get_icon": {
+      "Variables": {
+        "type": "Enum.TDPInputActionType"
+      }
+    },
+    "gml_Script_tdp_text_commit": {
+      "Variables": {
+        "type": "Enum.TDPTextActionType"
+      }
+    },
+    "gml_Script____struct___35_add_option_press_gml_GlobalScript_scr_menu": {
+      "Variables": {
+        "type": "Enum.OptionType"
+      }
+    },
+    "gml_Script____struct___36_add_option_toggle_gml_GlobalScript_scr_menu": {
+      "Variables": {
+        "type": "Enum.OptionType"
+      }
+    },
+    "gml_Script____struct___37_add_option_multiple_gml_GlobalScript_scr_menu": {
+      "Variables": {
+        "type": "Enum.OptionType"
+      }
+    },
+    "gml_Script____struct___39_add_option_slide_gml_GlobalScript_scr_menu": {
+      "Variables": {
+        "type": "Enum.OptionType"
+      }
+    },
+    "gml_Script____struct___34_create_menu_fixed_gml_GlobalScript_scr_menu": {
+      "Variables": {
+        "argument4": "Enum.MenuIDs",
+        "type": "Enum.MenuType"
+      }
+    },
+    "gml_Object_obj_option_Step_0": {
+      "Variables": {
+        "type": "Enum.OptionType"
+      }
+    },
+    "gml_Object_obj_option_Draw_64": {
+      "Variables": {
+        "anchor": "Enum.MenuAnchor",
+        "type": "Enum.OptionType"
+      }
+    },
+    "gml_Object_obj_option_CleanUp_0": {
+      "Variables": {
+        "type": "Enum.OptionType"
+      }
+    },
+    "gml_Script_tv_push_prompt": {
+      "Variables": {
+        "b2": "Array<Enum.TVPromptTypes>"
+      }
+    },
+    "gml_Script_scr_compile_icon_text": {
+      "Variables": {
+        "te": "Enum.TextEffect",
+        "b": "Enum.ButtonIcon",
+        "t": "Enum.TextType"
+      }
+    },
+    "gml_Script_scr_text_arr_size": {
+      "Variables": {
+        "t": "Enum.TextType"
+      }
+    },
+    "gml_Script_scr_draw_text_arr": {
+      "Variables": {
+        "t": "Enum.TextType",
+        "val": "Enum.ButtonIcon"
+      }
+    },
+    "gml_Script_anon_tdp_input_key_gml_GlobalScript_tdp_input_classes_316_tdp_input_key_gml_GlobalScript_tdp_input_classes": {
+      "Variables": {
+        "type": "Enum.TDPInputActionType"
+      }
+    },
+    "gml_Script_tdp_input_action": {
+      "Variables": {
+        "type": "Enum.TDPInputActionType"
+      }
+    },
+    "gml_Script_anon_tdp_input_action_gml_GlobalScript_tdp_input_classes_1897_tdp_input_action_gml_GlobalScript_tdp_input_classes": {
+      "Variables": {
+        "type": "Enum.TDPInputActionType",
+        "value": "Constant.GamepadButton"
+      }
+    },
+    "gml_Object_obj_mrstickboss_Create_0": {
+      "FunctionArguments": {
+        "ds_map_set": [null, "Enum.State", null]
+      }
+    },
+    "gml_Object_obj_achievementtracker_Create_0": {
+      "Variables": {
+        "type": "Enum.Notification"
+      }
+    },
+    "gml_Script_anon_gml_Object_obj_achievementtracker_Create_0_25261_gml_Object_obj_achievementtracker_Create_0": {
+      "Variables": {
+        "arr": "Array<Asset.Object>"
       }
     }
   }
