@@ -3,8 +3,8 @@
   "Conditions": [
     {
       "ConditionKind": "DisplayName.Regex",
-      "Value": "Pizza Tower"
+      "Value": "Sugary Spire"
     }
   ],
-  "UnderanalyzerFilename": "pizzatower.json"
+  "UnderanalyzerFilename": "sugaryspire.json"
 }
