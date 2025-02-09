@@ -7,7 +7,7 @@ This repository hosts a series of JSON files written for the `underanalyzer` bra
 3. Put in `sugaryspire.json` from this repository.
 4. Next, go back to the `GameSpecificData` folder and enter the `Definitions` folder.
 5. Put in `sugaryspiredef.json` from this repository.
-6. You're done! Launch UTMT (from your own compilation, of course) and the next time you open up Pizza Tower, the changes should be applied!
+6. You're done! Launch UTMT (from your own compilation, of course) and the next time you open up Sugary Spire, the changes should be applied!
 
 # Known Issues
 - So far, I've really only gotten to about half of the codebase. It's helpful and mostly furfilling enough at the moment to release, however!
